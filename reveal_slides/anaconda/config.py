@@ -8,11 +8,11 @@ with the default options.
 
 REVEAL_META = {
     # Title of the slide
-    "title": "The title",
+    "title": "Anaconda",
     # Author in the metadata of the slide
-    "author": "Some Author",
+    "author": "Justin Minsk",
     # Description in the metadata of the slide
-    "description": "Some description",
+    "description": "Why use Anaconda.",
 }
 
 # Reveal markdown slide separator

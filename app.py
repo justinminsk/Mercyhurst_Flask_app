@@ -21,7 +21,7 @@ def about():
 
 @app.route("/slideshow")
 def slide_show():
-    return render_template('slides.html')
+    return render_template('anaconda.html')
 
 
 if __name__ == '__main__':
