@@ -49,6 +49,7 @@ jsonschema==2.5.1
 locket==0.2.0
 lxml==3.6.0
 MarkupSafe==0.23
+Markdown==2.6.11
 matplotlib==1.5.1
 mistune==0.7.2
 mpmath==0.19
