@@ -105,8 +105,6 @@ redis==2.10.5
 requests==2.14.2
 revelation==0.5.1
 rope-py3k==0.9.4.post1
-scikit-image==0.12.3
-scikit-learn==0.17.1
 scipy==0.17.1
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
