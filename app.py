@@ -19,12 +19,12 @@ def about():
 
 
 @app.route("/anaconda")
-def slide_show():
+def anaconda():
     return render_template('anaconda.html')
 
 
 @app.route("/acm")
-def slide_show():
+def acm():
     return render_template('acm.html')
 
 
