@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Metadata about the presentation -->
+    <meta charset="utf-8">
+
+    <title>Anaconda</title>
+
+    <meta name="description" content="Why use Anaconda.">
+    <meta name="author" content="Justin Minsk">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <!-- Presentation Styles -->
+    <link rel="stylesheet" href="../static/revealjs/css/reveal.css">
+
+    
+      <link rel="stylesheet" href="../static/revealjs/css/theme/black.css" id="theme">
+    
+
+    
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="../static/revealjs/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? "static/revealjs/css/print/pdf.css" : "static/revealjs/css/print/paper.css";
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="static/revealjs/lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    
+
+    <!-- Presentation body -->
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+          <section>
+              <iframe src="https://www.acm.org/about-acm/about-the-acm-organization" class="stretch"></iframe>
+          </section>
+          <section>
+              <h2>How to Join</h2>
+              <iframe src="https://services.acm.org/public/qj/quickjoin/qj_control.cfm?form_type=Student" class="stretch"></iframe>
+          </section>
+          <section>
+            <section>
+                <iframe src="https://www.acm.org/chapters/students" class="stretch"></iframe>
+            </section>
+            <section>
+                <iframe src="https://www.acm.org/chapters/students/how-to-start-a-student-chapter" class="stretch"></iframe>
+            </section>
+            <section>
+                <h2>What we need to have a chapter</h2>
+                <p>
+                    1. We need 10 paying members.
+
+                    2. We need a Chair, Vice Chair, and Treasurer. All of which must be members.
+
+                    3. We need a faculty member.
+
+                    4. We need chapter name, chapter email address, chapter type, and chapter sub-type.
+                </p>
+            </section>
+            <section>
+                <iframe src="https://campus2.acm.org/public/chapters/AutoChap/" class="stretch"></iframe>
+            </section>
+        </section>
+
+      </div>
+
+    </div>
+
+    <!-- Scripts loaded after the content -->
+    <script src="../static/revealjs/lib/js/head.min.js"></script>
+    <script src="../static/revealjs/js/reveal.js"></script>
+
+    <script>
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+          { src: 'static/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+          // Interpret Markdown in <section> elements
+          { src: 'static/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'static/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+          // Syntax highlight for <code> elements
+          { src: 'static/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+          // Zoom in and out with Alt+click
+          { src: 'static/revealjs/plugin/zoom-js/zoom.js', async: true },
+
+          // Speaker notes
+          { src: 'static/revealjs/plugin/notes/notes.js', async: true },
+
+          // MathJax
+          { src: 'static/revealjs/plugin/math/math.js', async: true }
+        ]
+      });
+
+      Reveal.configure({"autoSlide": 0, "autoSlideStoppable": true, "backgroundTransition": "default", "center": true, "controls": true, "embedded": false, "fragments": true, "help": true, "hideAddressBar": true, "history": true, "keyboard": true, "loop": false, "mouseWheel": false, "overview": true, "parallaxBackgroundHorizontal": "", "parallaxBackgroundImage": "", "parallaxBackgroundSize": "", "parallaxBackgroundVertical": "", "previewLinks": false, "progress": true, "rtl": false, "showNotes": false, "slideNumber": false, "touch": true, "transition": "default", "transitionSpeed": "default", "viewDistance": 3});
+    </script>
+  </body>
+</html>
