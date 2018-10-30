@@ -93,7 +93,7 @@ pyzmq==15.2.0
 qtconsole==4.2.1
 QtPy==1.0.2
 redis==2.10.5
-requests==2.14.2
+requests==2.20
 revelation==0.5.1
 SQLAlchemy==1.0.13
 sympy==1.0
